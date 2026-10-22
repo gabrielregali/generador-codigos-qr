@@ -3,13 +3,14 @@
 
 ## AUTORES
 
-### **Lucas Ariel Holës**
+### Lucas Ariel Holës
 
-### **Kevin Alejandro Medina**
+### Kevin Alejandro Medina
 
-### **Luciano Oscar Morales**
+### Luciano Oscar Morales
 
-### **Gabriel Alfredo Regali**
+### Gabriel Alfredo Regali
+
 
 ## Descripción
 
