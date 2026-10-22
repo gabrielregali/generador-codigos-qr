@@ -1,6 +1,16 @@
 
 # Generador de Códigos QR
 
+## AUTORES
+
+### **Lucas Ariel Holës**
+
+### **Kevin Alejandro Medina**
+
+### **Luciano Oscar Morales**
+
+### **Gabriel Alfredo Regali**
+
 ## Descripción
 
 Este proyecto es una aplicación de consola desarrollada en Python que permite generar códigos QR a partir de un texto o una dirección URL.
@@ -134,10 +144,5 @@ El programa utiliza excepciones para contemplar situaciones como:
 - Errores de acceso o guardado del archivo.
 - Interrupción de la ejecución.
 
-## AUTORES
 
-Lucas Ariel Holës
-Kevin Alejandro Medina
-Luciano Oscar Morales
-Gabriel Alfredo Regali
 
