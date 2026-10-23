@@ -6,9 +6,19 @@ import qrcode
 def generar_qr(
     contenido: str,
     nombre_archivo: str,
-    color: str
+    color: str,
 ) -> None:
-    """Genera el código QR con el color elegido y guarda la imagen."""
+    """Genera un código QR y guarda la imagen en formato PNG.
+
+    Args:
+        contenido: Texto o URL que contendrá el código QR.
+        nombre_archivo: Nombre del archivo PNG de salida.
+        color: Color seleccionado para los módulos del QR.
+
+    Raises:
+        OSError: Si ocurre un error del sistema al guardar
+            la imagen o resolver la ruta de salida.
+    """
     codigo_qr = qrcode.QRCode(
         version=None,
         error_correction=qrcode.constants.ERROR_CORRECT_M,

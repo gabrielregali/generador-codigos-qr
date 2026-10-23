@@ -45,13 +45,17 @@ from pedir_color import pedir_color
 
 
 def main() -> None:
-    """Coordina la ejecución del generador de códigos QR."""
+    """Coordina la ejecución del generador de códigos QR.
+    Solicita los datos necesarios, genera el código QR y
+    muestra los errores que puedan ocurrir durante la ejecución.
+    """
     print("=== GENERADOR DE CÓDIGOS QR ===")
 
     try:
         contenido = pedir_contenido()
         nombre_archivo = pedir_nombre_archivo()
         color = pedir_color()
+
         generar_qr(contenido, nombre_archivo, color)
 
     except ValueError as error:
@@ -68,4 +72,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()

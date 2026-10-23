@@ -32,10 +32,10 @@ La imagen generada se guarda en formato PNG y el programa informa dónde quedó 
 ## Tecnologías utilizadas
 
 - Python 3
-- qrcode
-- Pillow
-- pathlib
-- venv
+- qrcode: generación de códigos QR
+- Pillow: creación y guardado de imágenes.
+- pathlib: manejo de rutas de archivos.
+- venv: creación de entornos virtuales
 
 ## Estructura del proyecto
 
@@ -66,8 +66,8 @@ La carpeta `.venv/` corresponde al entorno virtual local y no es necesario inclu
 Si el proyecto está publicado en GitHub, clonar el repositorio y entrar en su carpeta:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
-cd generador_qr
+git clone https://github.com/gabrielregali/generador-codigos-qr.git
+cd generador-codigos-qr
 ```
 
 Si ya se tiene el proyecto descargado, abrir una terminal dentro de la carpeta.
